@@ -25,6 +25,7 @@
 		FB3B6B51253C7A41006541E9 /* HolidayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6B50253C7A41006541E9 /* HolidayState.swift */; };
 		FB3B6B56253C7AE9006541E9 /* HolidayIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6B55253C7AE9006541E9 /* HolidayIntent.swift */; };
 		FB3B6B5B253C8CF5006541E9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6B5A253C8CF5006541E9 /* ActivityIndicator.swift */; };
+		FB3B6B65253CA63A006541E9 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3B6B64253CA63A006541E9 /* screenshot.png */; };
 		FB3DED06253C2C9D00C94BB1 /* MVISwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DED05253C2C9D00C94BB1 /* MVISwiftUIApp.swift */; };
 		FB3DED08253C2C9D00C94BB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DED07253C2C9D00C94BB1 /* ContentView.swift */; };
 		FB3DED0A253C2C9F00C94BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3DED09253C2C9F00C94BB1 /* Assets.xcassets */; };
@@ -75,6 +76,8 @@
 		FB3B6B50253C7A41006541E9 /* HolidayState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayState.swift; sourceTree = "<group>"; };
 		FB3B6B55253C7AE9006541E9 /* HolidayIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayIntent.swift; sourceTree = "<group>"; };
 		FB3B6B5A253C8CF5006541E9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		FB3B6B5F253CA4AD006541E9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FB3B6B64253CA63A006541E9 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		FB3DED02253C2C9D00C94BB1 /* MVISwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVISwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3DED05253C2C9D00C94BB1 /* MVISwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVISwiftUIApp.swift; sourceTree = "<group>"; };
 		FB3DED07253C2C9D00C94BB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -208,9 +211,19 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		FB3B6B60253CA4CE006541E9 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				FB3B6B64253CA63A006541E9 /* screenshot.png */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 		FB3DECF9253C2C9D00C94BB1 = {
 			isa = PBXGroup;
 			children = (
+				FB3B6B60253CA4CE006541E9 /* Screenshot */,
+				FB3B6B5F253CA4AD006541E9 /* README.md */,
 				FB3DED04253C2C9D00C94BB1 /* MVISwiftUI */,
 				FB3DED16253C2C9F00C94BB1 /* MVISwiftUITests */,
 				FB3DED21253C2C9F00C94BB1 /* MVISwiftUIUITests */,
@@ -381,6 +394,7 @@
 			files = (
 				FB3DED0D253C2C9F00C94BB1 /* Preview Assets.xcassets in Resources */,
 				FB3DED0A253C2C9F00C94BB1 /* Assets.xcassets in Resources */,
+				FB3B6B65253CA63A006541E9 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
