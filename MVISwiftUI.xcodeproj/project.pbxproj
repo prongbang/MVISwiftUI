@@ -3,10 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		858588D595B9BC93520CDB57 /* Pods_MVISwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 162FD93BDD13A5351133B7D0 /* Pods_MVISwiftUI.framework */; };
+		88B5E6BB092C4B9B8B719BCC /* Pods_MVISwiftUI_MVISwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00285D3569EF868C321345D /* Pods_MVISwiftUI_MVISwiftUIUITests.framework */; };
+		A19D4CABA694F26BCA59BCF9 /* Pods_MVISwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBE3D368C184BF1D060D078 /* Pods_MVISwiftUITests.framework */; };
+		FB3B6A6F253C4D53006541E9 /* HolidayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6A6E253C4D53006541E9 /* HolidayView.swift */; };
+		FB3B6A74253C4DAC006541E9 /* HolidayRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6A73253C4DAC006541E9 /* HolidayRepository.swift */; };
+		FB3B6A79253C4DBE006541E9 /* HolidayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6A78253C4DBE006541E9 /* HolidayDataSource.swift */; };
+		FB3B6A7E253C4DF3006541E9 /* HolidayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6A7D253C4DF3006541E9 /* HolidayService.swift */; };
+		FB3B6A87253C4E69006541E9 /* HolidayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6A86253C4E69006541E9 /* HolidayViewModel.swift */; };
+		FB3B6A9B253C4F3B006541E9 /* App+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6A9A253C4F3B006541E9 /* App+Injection.swift */; };
+		FB3B6AA0253C4F6A006541E9 /* Holiday+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6A9F253C4F6A006541E9 /* Holiday+Injection.swift */; };
+		FB3B6AA5253C4FE6006541E9 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6AA4253C4FE6006541E9 /* Holiday.swift */; };
+		FB3B6AAA253C5192006541E9 /* HolidayRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6AA9253C5192006541E9 /* HolidayRemoteDataSource.swift */; };
+		FB3B6B41253C71EB006541E9 /* HolidayApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6B40253C71EB006541E9 /* HolidayApi.swift */; };
+		FB3B6B46253C7345006541E9 /* GetHolidayUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6B45253C7345006541E9 /* GetHolidayUseCase.swift */; };
+		FB3B6B4C253C7509006541E9 /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6B4B253C7509006541E9 /* UseCase.swift */; };
+		FB3B6B51253C7A41006541E9 /* HolidayState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6B50253C7A41006541E9 /* HolidayState.swift */; };
+		FB3B6B56253C7AE9006541E9 /* HolidayIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6B55253C7AE9006541E9 /* HolidayIntent.swift */; };
+		FB3B6B5B253C8CF5006541E9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B6B5A253C8CF5006541E9 /* ActivityIndicator.swift */; };
 		FB3DED06253C2C9D00C94BB1 /* MVISwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DED05253C2C9D00C94BB1 /* MVISwiftUIApp.swift */; };
 		FB3DED08253C2C9D00C94BB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DED07253C2C9D00C94BB1 /* ContentView.swift */; };
 		FB3DED0A253C2C9F00C94BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3DED09253C2C9F00C94BB1 /* Assets.xcassets */; };
@@ -33,6 +51,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		147857C6603D0EE5FE3FE434 /* Pods-MVISwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVISwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-MVISwiftUI/Pods-MVISwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		162FD93BDD13A5351133B7D0 /* Pods_MVISwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVISwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C96DE4F0E066D619A88B61 /* Pods-MVISwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVISwiftUI.release.xcconfig"; path = "Target Support Files/Pods-MVISwiftUI/Pods-MVISwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		4A685706DC36F216C2017B96 /* Pods-MVISwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVISwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-MVISwiftUITests/Pods-MVISwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		755D07BF06F955228547B40B /* Pods-MVISwiftUI-MVISwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVISwiftUI-MVISwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-MVISwiftUI-MVISwiftUIUITests/Pods-MVISwiftUI-MVISwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EBE3D368C184BF1D060D078 /* Pods_MVISwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVISwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00285D3569EF868C321345D /* Pods_MVISwiftUI_MVISwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVISwiftUI_MVISwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8991043CADAAFB49F633566 /* Pods-MVISwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVISwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-MVISwiftUITests/Pods-MVISwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBA5CEDB4F05C49796161B38 /* Pods-MVISwiftUI-MVISwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVISwiftUI-MVISwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-MVISwiftUI-MVISwiftUIUITests/Pods-MVISwiftUI-MVISwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB3B6A6E253C4D53006541E9 /* HolidayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayView.swift; sourceTree = "<group>"; };
+		FB3B6A73253C4DAC006541E9 /* HolidayRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayRepository.swift; sourceTree = "<group>"; };
+		FB3B6A78253C4DBE006541E9 /* HolidayDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayDataSource.swift; sourceTree = "<group>"; };
+		FB3B6A7D253C4DF3006541E9 /* HolidayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayService.swift; sourceTree = "<group>"; };
+		FB3B6A86253C4E69006541E9 /* HolidayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayViewModel.swift; sourceTree = "<group>"; };
+		FB3B6A9A253C4F3B006541E9 /* App+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Injection.swift"; sourceTree = "<group>"; };
+		FB3B6A9F253C4F6A006541E9 /* Holiday+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Holiday+Injection.swift"; sourceTree = "<group>"; };
+		FB3B6AA4253C4FE6006541E9 /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		FB3B6AA9253C5192006541E9 /* HolidayRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayRemoteDataSource.swift; sourceTree = "<group>"; };
+		FB3B6B40253C71EB006541E9 /* HolidayApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayApi.swift; sourceTree = "<group>"; };
+		FB3B6B45253C7345006541E9 /* GetHolidayUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHolidayUseCase.swift; sourceTree = "<group>"; };
+		FB3B6B4B253C7509006541E9 /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
+		FB3B6B50253C7A41006541E9 /* HolidayState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayState.swift; sourceTree = "<group>"; };
+		FB3B6B55253C7AE9006541E9 /* HolidayIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayIntent.swift; sourceTree = "<group>"; };
+		FB3B6B5A253C8CF5006541E9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		FB3DED02253C2C9D00C94BB1 /* MVISwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVISwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3DED05253C2C9D00C94BB1 /* MVISwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVISwiftUIApp.swift; sourceTree = "<group>"; };
 		FB3DED07253C2C9D00C94BB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858588D595B9BC93520CDB57 /* Pods_MVISwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19D4CABA694F26BCA59BCF9 /* Pods_MVISwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +110,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B5E6BB092C4B9B8B719BCC /* Pods_MVISwiftUI_MVISwiftUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAAAAA539A9C9F2448903B34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				162FD93BDD13A5351133B7D0 /* Pods_MVISwiftUI.framework */,
+				A00285D3569EF868C321345D /* Pods_MVISwiftUI_MVISwiftUIUITests.framework */,
+				8EBE3D368C184BF1D060D078 /* Pods_MVISwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F264F8829C24F3667899744D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				147857C6603D0EE5FE3FE434 /* Pods-MVISwiftUI.debug.xcconfig */,
+				43C96DE4F0E066D619A88B61 /* Pods-MVISwiftUI.release.xcconfig */,
+				755D07BF06F955228547B40B /* Pods-MVISwiftUI-MVISwiftUIUITests.debug.xcconfig */,
+				EBA5CEDB4F05C49796161B38 /* Pods-MVISwiftUI-MVISwiftUIUITests.release.xcconfig */,
+				4A685706DC36F216C2017B96 /* Pods-MVISwiftUITests.debug.xcconfig */,
+				E8991043CADAAFB49F633566 /* Pods-MVISwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB3B6A6A253C4CF5006541E9 /* Holiday */ = {
+			isa = PBXGroup;
+			children = (
+				FB3B6A8E253C4E76006541E9 /* Domain */,
+				FB3B6A85253C4E4F006541E9 /* Presentation */,
+				FB3B6A82253C4DFC006541E9 /* Data */,
+				FB3B6A9F253C4F6A006541E9 /* Holiday+Injection.swift */,
+			);
+			path = Holiday;
+			sourceTree = "<group>";
+		};
+		FB3B6A82253C4DFC006541E9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FB3B6A84253C4E19006541E9 /* Local */,
+				FB3B6A83253C4E07006541E9 /* Remote */,
+				FB3B6A78253C4DBE006541E9 /* HolidayDataSource.swift */,
+				FB3B6A73253C4DAC006541E9 /* HolidayRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FB3B6A83253C4E07006541E9 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				FB3B6A7D253C4DF3006541E9 /* HolidayService.swift */,
+				FB3B6AA9253C5192006541E9 /* HolidayRemoteDataSource.swift */,
+				FB3B6B40253C71EB006541E9 /* HolidayApi.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		FB3B6A84253C4E19006541E9 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		FB3B6A85253C4E4F006541E9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FB3B6A6E253C4D53006541E9 /* HolidayView.swift */,
+				FB3B6A86253C4E69006541E9 /* HolidayViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FB3B6A8E253C4E76006541E9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FB3B6AA4253C4FE6006541E9 /* Holiday.swift */,
+				FB3B6B45253C7345006541E9 /* GetHolidayUseCase.swift */,
+				FB3B6B50253C7A41006541E9 /* HolidayState.swift */,
+				FB3B6B55253C7AE9006541E9 /* HolidayIntent.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FB3B6B4A253C74F7006541E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FB3B6B4B253C7509006541E9 /* UseCase.swift */,
+				FB3B6B5A253C8CF5006541E9 /* ActivityIndicator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		FB3DECF9253C2C9D00C94BB1 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +215,8 @@
 				FB3DED16253C2C9F00C94BB1 /* MVISwiftUITests */,
 				FB3DED21253C2C9F00C94BB1 /* MVISwiftUIUITests */,
 				FB3DED03253C2C9D00C94BB1 /* Products */,
+				F264F8829C24F3667899744D /* Pods */,
+				BAAAAA539A9C9F2448903B34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +233,14 @@
 		FB3DED04253C2C9D00C94BB1 /* MVISwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FB3B6B4A253C74F7006541E9 /* Core */,
+				FB3B6A6A253C4CF5006541E9 /* Holiday */,
 				FB3DED05253C2C9D00C94BB1 /* MVISwiftUIApp.swift */,
 				FB3DED07253C2C9D00C94BB1 /* ContentView.swift */,
 				FB3DED09253C2C9F00C94BB1 /* Assets.xcassets */,
 				FB3DED0E253C2C9F00C94BB1 /* Info.plist */,
 				FB3DED0B253C2C9F00C94BB1 /* Preview Content */,
+				FB3B6A9A253C4F3B006541E9 /* App+Injection.swift */,
 			);
 			path = MVISwiftUI;
 			sourceTree = "<group>";
@@ -137,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB3DED27253C2C9F00C94BB1 /* Build configuration list for PBXNativeTarget "MVISwiftUI" */;
 			buildPhases = (
+				27C852879D49FE27B6F77E45 /* [CP] Check Pods Manifest.lock */,
 				FB3DECFE253C2C9D00C94BB1 /* Sources */,
 				FB3DECFF253C2C9D00C94BB1 /* Frameworks */,
 				FB3DED00253C2C9D00C94BB1 /* Resources */,
+				AFAC9087AD904D8248C1F4A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB3DED2A253C2C9F00C94BB1 /* Build configuration list for PBXNativeTarget "MVISwiftUITests" */;
 			buildPhases = (
+				945E3ABCCD03DCC3939A65BB /* [CP] Check Pods Manifest.lock */,
 				FB3DED0F253C2C9F00C94BB1 /* Sources */,
 				FB3DED10253C2C9F00C94BB1 /* Frameworks */,
 				FB3DED11253C2C9F00C94BB1 /* Resources */,
@@ -172,9 +316,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB3DED2D253C2C9F00C94BB1 /* Build configuration list for PBXNativeTarget "MVISwiftUIUITests" */;
 			buildPhases = (
+				ED9301467A6B05DAE87BF5C7 /* [CP] Check Pods Manifest.lock */,
 				FB3DED1A253C2C9F00C94BB1 /* Sources */,
 				FB3DED1B253C2C9F00C94BB1 /* Frameworks */,
 				FB3DED1C253C2C9F00C94BB1 /* Resources */,
+				94EDA7AC2F021F1A8FB16FDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +400,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27C852879D49FE27B6F77E45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVISwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		945E3ABCCD03DCC3939A65BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVISwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94EDA7AC2F021F1A8FB16FDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVISwiftUI-MVISwiftUIUITests/Pods-MVISwiftUI-MVISwiftUIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVISwiftUI-MVISwiftUIUITests/Pods-MVISwiftUI-MVISwiftUIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVISwiftUI-MVISwiftUIUITests/Pods-MVISwiftUI-MVISwiftUIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFAC9087AD904D8248C1F4A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVISwiftUI/Pods-MVISwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVISwiftUI/Pods-MVISwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVISwiftUI/Pods-MVISwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED9301467A6B05DAE87BF5C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVISwiftUI-MVISwiftUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB3DECFE253C2C9D00C94BB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3B6A79253C4DBE006541E9 /* HolidayDataSource.swift in Sources */,
+				FB3B6A7E253C4DF3006541E9 /* HolidayService.swift in Sources */,
+				FB3B6B51253C7A41006541E9 /* HolidayState.swift in Sources */,
+				FB3B6B46253C7345006541E9 /* GetHolidayUseCase.swift in Sources */,
+				FB3B6A74253C4DAC006541E9 /* HolidayRepository.swift in Sources */,
+				FB3B6A6F253C4D53006541E9 /* HolidayView.swift in Sources */,
+				FB3B6A87253C4E69006541E9 /* HolidayViewModel.swift in Sources */,
+				FB3B6A9B253C4F3B006541E9 /* App+Injection.swift in Sources */,
+				FB3B6AA5253C4FE6006541E9 /* Holiday.swift in Sources */,
+				FB3B6B41253C71EB006541E9 /* HolidayApi.swift in Sources */,
+				FB3B6B56253C7AE9006541E9 /* HolidayIntent.swift in Sources */,
 				FB3DED08253C2C9D00C94BB1 /* ContentView.swift in Sources */,
 				FB3DED06253C2C9D00C94BB1 /* MVISwiftUIApp.swift in Sources */,
+				FB3B6B4C253C7509006541E9 /* UseCase.swift in Sources */,
+				FB3B6AAA253C5192006541E9 /* HolidayRemoteDataSource.swift in Sources */,
+				FB3B6AA0253C4F6A006541E9 /* Holiday+Injection.swift in Sources */,
+				FB3B6B5B253C8CF5006541E9 /* ActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +611,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,7 +666,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -414,6 +678,7 @@
 		};
 		FB3DED28253C2C9F00C94BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147857C6603D0EE5FE3FE434 /* Pods-MVISwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +701,7 @@
 		};
 		FB3DED29253C2C9F00C94BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C96DE4F0E066D619A88B61 /* Pods-MVISwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +724,7 @@
 		};
 		FB3DED2B253C2C9F00C94BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A685706DC36F216C2017B96 /* Pods-MVISwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +747,7 @@
 		};
 		FB3DED2C253C2C9F00C94BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8991043CADAAFB49F633566 /* Pods-MVISwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +770,7 @@
 		};
 		FB3DED2E253C2C9F00C94BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755D07BF06F955228547B40B /* Pods-MVISwiftUI-MVISwiftUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +791,7 @@
 		};
 		FB3DED2F253C2C9F00C94BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA5CEDB4F05C49796161B38 /* Pods-MVISwiftUI-MVISwiftUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
