@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.0.2)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - PromisesObjC (1.2.8)
+  - PromisesSwift (1.2.8):
+    - PromisesObjC (= 1.2.8)
+  - Resolver (1.1.2)
+
+DEPENDENCIES:
+  - Moya (~> 14.0)
+  - PromisesSwift
+  - Resolver
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - PromisesObjC
+    - PromisesSwift
+    - Resolver
+
+SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  PromisesSwift: 37bad6f4daddb02f7c9c531efe91e8b21c13ee2f
+  Resolver: e04ca5a9a19906f2e5cdceb2b90edd3b5daed049
+
+PODFILE CHECKSUM: 25cc5ede5043fcec4dac2109d6389064ea57103a
+
+COCOAPODS: 1.9.0
